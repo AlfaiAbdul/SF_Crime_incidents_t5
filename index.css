@@ -1,9 +1,10 @@
 /*------------- Header --------------*/
 #nav-title {
     background-color: #0dd8ee;
-    color: white;
-    margin-left: 50px;
+    color: rgb(37, 120, 223);
+    
 }
+
 .main-viz {
     padding-bottom: 20px;
     margin: auto;
@@ -16,7 +17,7 @@
     background-color: #0dd8ee; 
 }
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: white;
+    background-color: rgb(37, 120, 223);
 }
 /*drop down*/
 
@@ -45,4 +46,8 @@
         max-width: 45%;
         margin: 2px;
     }
+}
+.clearfix {
+    margin-left: auto;
+    margin-right: auto;
 }
