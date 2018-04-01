@@ -1,6 +1,13 @@
+iframe {
+    border: none;
+    width: 100%;
+    height: 9in;
+    min-height: 400px;
+}
+
 /*------------- Header --------------*/
 #nav-title {
-    background-color: #0dd8ee;
+    background-color:rgb(37, 120, 223);
     color: rgb(37, 120, 223);
     
 }

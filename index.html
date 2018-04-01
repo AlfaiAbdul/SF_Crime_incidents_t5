@@ -10,15 +10,81 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  </head>  
+  </head> 
+  <div class="container">
+        <div class="navbar-header">
+            <button id="myButton0">Neighborhoods</button>
+            <button id="myButton1">Larceny/Theft</button>
+            <button id="myButton2">Assault</button>
+            <button id="myButton3">Vandalism</button>
+            <button id="myButton4">Vehicle Theft</button>
+            <button id="myButton5">Burglary</button>
+        </div>
+    </div>
+     
+<iframe id="myFrame"  src="https://alfaiabdul.carto.com/builder/68e28edf-3c19-4296-90b6-b877de5b03b9/embed" border="0"></iframe>
+
+<script>
+document.getElementById('myButton0').onclick = function() {     
+var myFrame = document.getElementById("myFrame");   
+myFrame.src = "https://alfaiabdul.carto.com/builder/68e28edf-3c19-4296-90b6-b877de5b03b9/embed";   
+}
+document.getElementById('myButton1').onclick = function() {     
+var myFrame = document.getElementById("myFrame");   
+myFrame.src = "https://alfaiabdul.carto.com/builder/8cdd6b5e-9961-461b-88c3-ac50376bcf9e/embed";   
+}
+document.getElementById('myButton2').onclick = function() {     
+var myFrame = document.getElementById("myFrame");   
+myFrame.src = "https://alfaiabdul.carto.com/builder/67dfd523-b5ff-43fe-baa0-b5419b35a434/embed";   
+}
+document.getElementById('myButton3').onclick = function() {     
+var myFrame = document.getElementById("myFrame");   
+myFrame.src = "https://alfaiabdul.carto.com/builder/13f48c4b-0e7b-409a-b750-a1be1d7c22f4/embed";   
+}
+document.getElementById('myButton4').onclick = function() {     
+var myFrame = document.getElementById("myFrame");   
+myFrame.src = "https://alfaiabdul.carto.com/builder/77055d99-a4cc-43a5-ba23-7f57e86f2aed/embed";   
+}
+document.getElementById('myButton5').onclick = function() {     
+var myFrame = document.getElementById("myFrame");   
+myFrame.src = "https://alfaiabdul.carto.com/builder/59d03250-4d0f-4d81-9332-e5cdb1a1fc3b/embed";   
+}
+</script> 
+
+  <nav class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" id="nav-title" href="index.html">HOME</a>
+        </div>    
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">                
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Maps <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="temp.html">Larceny/Theft</a></li>
+                        <li><a href="cloudniness.html">Assault</a></li>
+                        <li><a href="wind_speed.html">Vandalism</a></li>
+                        <li><a href="humidity.html">Vehicle Theft</a></li>
+                        <li><a href="temp.html">Burglary</a></li>
+                    </ul>
+                </li>
+                <li><a href="comparison.html">Tree Layout</a></li>
+                <li><a href="data.html">Heatmap</a></li>
+                <li><a href="comparison.html">About</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
 
 
-<!-- The following headder will be used acrosse all pages -->
 <body>
-    <nav class="navbar navbar-default">
-      <h4><p>San Francisco Neighborhoods Layout</p></h4>
-        
-      </nav>
+    
 <iframe width="100%" height="820" frameborder="0" src="https://alfaiabdul.carto.com/builder/68e28edf-3c19-4296-90b6-b877de5b03b9/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>	
 
     <nav class="navbar navbar-default">
@@ -34,7 +100,7 @@
                     <a href="https://alfaiabdul.carto.com/builder/8cdd6b5e-9961-461b-88c3-ac50376bcf9e/embed">Larceny/Theft</a>
                   </h3>
                   
-                  <iframe width="100%" height="420" frameborder="0" src="https://alfaiabdul.carto.com/builder/8cdd6b5e-9961-461b-88c3-ac50376bcf9e/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+                  <iframe width="100%" height="120" frameborder="0" src="https://alfaiabdul.carto.com/builder/8cdd6b5e-9961-461b-88c3-ac50376bcf9e/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
             </div>
             <div class="col-md-2">
                 <section class="clearfix">
@@ -42,7 +108,7 @@
                     <a href="https://alfaiabdul.carto.com/builder/67dfd523-b5ff-43fe-baa0-b5419b35a434/embed">Assault</a>
                   </h3>
                   
-                  <iframe width="100%" height="420" frameborder="0" src="https://alfaiabdul.carto.com/builder/67dfd523-b5ff-43fe-baa0-b5419b35a434/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+                  <iframe width="100%" height="120" frameborder="0" src="https://alfaiabdul.carto.com/builder/67dfd523-b5ff-43fe-baa0-b5419b35a434/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
             </div>
             <div class="col-md-2">
                 <section class="clearfix">
@@ -50,7 +116,7 @@
                     <a href="https://alfaiabdul.carto.com/builder/13f48c4b-0e7b-409a-b750-a1be1d7c22f4/embed">Vandalism</a>
                   </h3>
                   
-                  <iframe width="100%" height="420" frameborder="0" src="https://alfaiabdul.carto.com/builder/13f48c4b-0e7b-409a-b750-a1be1d7c22f4/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+                  <iframe width="100%" height="120" frameborder="0" src="https://alfaiabdul.carto.com/builder/13f48c4b-0e7b-409a-b750-a1be1d7c22f4/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
             </div>
             <div class="col-md-2">
                 <section class="clearfix">
@@ -58,7 +124,7 @@
                     <a href="https://alfaiabdul.carto.com/builder/77055d99-a4cc-43a5-ba23-7f57e86f2aed/embed">Vehicle Theft</a>
                   </h3>
                   
-                  <iframe width="100%" height="420" frameborder="0" src="https://alfaiabdul.carto.com/builder/77055d99-a4cc-43a5-ba23-7f57e86f2aed/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+                  <iframe width="100%" height="120" frameborder="0" src="https://alfaiabdul.carto.com/builder/77055d99-a4cc-43a5-ba23-7f57e86f2aed/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
             </div>
             <div class="col-md-2">
                 <section class="clearfix">
@@ -66,7 +132,7 @@
                     <a href="https://alfaiabdul.carto.com/builder/59d03250-4d0f-4d81-9332-e5cdb1a1fc3b/embed">Burglary</a>
                   </h3>
                   
-                  <iframe width="100%" height="420" frameborder="0" src="https://alfaiabdul.carto.com/builder/59d03250-4d0f-4d81-9332-e5cdb1a1fc3b/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+                  <iframe width="100%" height="120" frameborder="0" src="https://alfaiabdul.carto.com/builder/59d03250-4d0f-4d81-9332-e5cdb1a1fc3b/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
             </div>
           </div> 
         </div>
